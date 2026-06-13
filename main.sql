@@ -1,5 +1,15 @@
-SELECT COUNT(*) FROM TEMP;
-DESC TEMP;
+--usuwanie
+DROP TABLE sprzedaz CASCADE CONSTRAINTS;
+DROP TABLE produkty CASCADE CONSTRAINTS;
+DROP TABLE czas CASCADE CONSTRAINTS;
+DROP TABLE klient CASCADE CONSTRAINTS;
+DROP SEQUENCE seq_produkty;
+DROP SEQUENCE seq_klient;
+DROP SEQUENCE seq_sprzedaz;
+
+
+-- SELECT COUNT(*) FROM TEMP;
+-- DESC TEMP;
 
 
 -- TABELA WYMIARU: produkty
@@ -12,9 +22,9 @@ msrp            NUMBER(10,2)
 
 -- TABELA WYMIARU: czas
 CREATE TABLE czas (
-id_czasu         NUMBER(8) PRIMARY KEY, 
+id_czasu         NUMBER(10) PRIMARY KEY, 
 data_sprzedazy   DATE NOT NULL,          
-dzien_tyg_numer  NUMBER(1) NOT NULL,
+dzien_tyg_numer  NUMBER(2) NOT NULL,
 czy_weekend      VARCHAR2(3) CHECK (czy_weekend IN ('TAK', 'NIE')) NOT NULL,
 dzien_tyg_nazwa  VARCHAR2(20) NOT NULL,
 miesiac_nazwa    VARCHAR2(20) NOT NULL,
@@ -43,7 +53,7 @@ territory           VARCHAR2(20)
 CREATE TABLE sprzedaz (
 id_sprzedazy      NUMBER(10) PRIMARY KEY,
 id_produktu       NUMBER(10) REFERENCES produkty(id_produktu) NOT NULL, 
-id_czasu          NUMBER(8)  REFERENCES czas(id_czasu) NOT NULL,       
+id_czasu          NUMBER(10)  REFERENCES czas(id_czasu) NOT NULL,       
 id_klienta        NUMBER(10) REFERENCES klient(id_klienta) NOT NULL,   
 order_number      NUMBER(10) NOT NULL,
 order_line_number NUMBER(3)  NOT NULL,
@@ -82,17 +92,16 @@ WHEN NOT MATCHED THEN
 
 
 --SPAWDZENIE ILE CZY TYLE SAMO
-SELECT COUNT(DISTINCT productcode) FROM temp;
-SELECT COUNT(*) FROM produkty;
+-- SELECT COUNT(DISTINCT productcode) FROM temp;
+-- SELECT COUNT(*) FROM produkty;
 --109
 
 
 
 
 ---SELECT * FROM temp order by orderdate;
--- nie mozna czasu uzyc drop i pozniej na nowo create wiec alter bo 
-ALTER TABLE czas MODIFY id_czasu NUMBER(10);
-ALTER TABLE czas MODIFY rok NUMBER(4);
+
+
 
 -- MERGE INTO czas t
 -- USING (
@@ -124,7 +133,7 @@ ALTER TABLE czas MODIFY rok NUMBER(4);
 
 -- MERGE DLA CZASU
 --numer dnia tygodnia do 2 cyfr
-ALTER TABLE czas MODIFY dzien_tyg_numer NUMBER(2);
+
 
 MERGE INTO czas t
 USING (
@@ -150,9 +159,9 @@ COMMIT;
 
 
 --- poprawnosc
-SELECT COUNT(*) FROM czas;
-SELECT COUNT(DISTINCT TRUNC(TO_DATE(orderdate, 'MM/DD/YYYY HH24:MI'))) AS wszystkie_unikalne_dni
-FROM temp;
+-- SELECT COUNT(*) FROM czas;
+-- SELECT COUNT(DISTINCT TRUNC(TO_DATE(orderdate, 'MM/DD/YYYY HH24:MI'))) AS wszystkie_unikalne_dni
+-- FROM temp;
 --252
 
 
@@ -185,10 +194,10 @@ WHEN NOT MATCHED THEN
 
 
 ---spr
-SELECT COUNT(DISTINCT customername)
-FROM temp;
-SELECT COUNT(*)
-FROM klient;
+-- SELECT COUNT(DISTINCT customername)
+-- FROM temp;
+-- SELECT COUNT(*)
+-- FROM klient;
 
 --92
 COMMIT;
@@ -224,31 +233,30 @@ WHEN NOT MATCHED THEN
 
 
 --spr
-SELECT COUNT(*)
-FROM sprzedaz;
+-- SELECT COUNT(*)
+-- FROM sprzedaz;
 
 --2823
 
 commit;
 --spr wszystkiego
-SELECT COUNT(*) FROM temp;
-SELECT COUNT(*) FROM sprzedaz;
-SELECT 
-    TO_NUMBER(ordernumber),
-    TO_NUMBER(orderlinenumber),
-    productcode,
-    customername,
-    TO_DATE(orderdate, 'MM/DD/YYYY HH24:MI')
-FROM temp
-MINUS
-SELECT 
-    s.order_number,
-    s.order_line_number,
-    p.kod_produktu,
-    k.customer_name,
-    c.data_sprzedazy
-FROM sprzedaz s
-JOIN produkty p ON p.id_produktu = s.id_produktu
-JOIN klient k ON k.id_klienta = s.id_klienta
-JOIN czas c ON c.id_czasu = s.id_czasu; 
-commit;
+-- SELECT COUNT(*) FROM temp;
+-- SELECT COUNT(*) FROM sprzedaz;
+-- SELECT 
+--     TO_NUMBER(ordernumber),
+--     TO_NUMBER(orderlinenumber),
+--     productcode,
+--     customername,
+--     TO_DATE(orderdate, 'MM/DD/YYYY HH24:MI')
+-- FROM temp
+-- MINUS
+-- SELECT 
+--     s.order_number,
+--     s.order_line_number,
+--     p.kod_produktu,
+--     k.customer_name,
+--     c.data_sprzedazy
+-- FROM sprzedaz s
+-- JOIN produkty p ON p.id_produktu = s.id_produktu
+-- JOIN klient k ON k.id_klienta = s.id_klienta
+-- JOIN czas c ON c.id_czasu = s.id_czasu; 
