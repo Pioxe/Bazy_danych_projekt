@@ -251,3 +251,4 @@ FROM sprzedaz s
 JOIN produkty p ON p.id_produktu = s.id_produktu
 JOIN klient k ON k.id_klienta = s.id_klienta
 JOIN czas c ON c.id_czasu = s.id_czasu; 
+commit;
