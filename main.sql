@@ -260,3 +260,21 @@ commit;
 -- JOIN produkty p ON p.id_produktu = s.id_produktu
 -- JOIN klient k ON k.id_klienta = s.id_klienta
 -- JOIN czas c ON c.id_czasu = s.id_czasu; 
+-- zapytania do zadania
+DESC produkty;
+DESC czas;
+DESC klient;
+DESC sprzedaz;
+
+SELECT 'produkty' AS tabela, COUNT(*) FROM produkty
+UNION ALL
+SELECT 'czas', COUNT(*) FROM czas
+UNION ALL
+SELECT 'klient', COUNT(*) FROM klient
+UNION ALL
+SELECT 'sprzedaz', COUNT(*) FROM sprzedaz;
+
+SELECT * FROM produkty FETCH FIRST 10 ROWS ONLY;
+SELECT * FROM czas ORDER BY id_czasu FETCH FIRST 10 ROWS ONLY;
+SELECT * FROM klient FETCH FIRST 10 ROWS ONLY;
+SELECT * FROM sprzedaz FETCH FIRST 10 ROWS ONLY;
