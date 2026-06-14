@@ -1,253 +1,253 @@
-"ID_CZASU","DATA_SPRZEDAZY","DZIEN_TYG_NUMER","CZY_WEEKEND","DZIEN_TYG_NAZWA","MIESIAC_NAZWA","MIESIAC_NUMER","KWARTAL_NUMER","ROK"
-20030106,03/01/06,31,"NIE","Monday   ","January  ",1,1,2003
-20030109,03/01/09,34,"NIE","Thursday ","January  ",1,1,2003
-20030110,03/01/10,35,"NIE","Friday   ","January  ",1,1,2003
-20030129,03/01/29,33,"NIE","Wednesday","January  ",1,1,2003
-20030131,03/01/31,35,"NIE","Friday   ","January  ",1,1,2003
-20030211,03/02/11,32,"NIE","Tuesday  ","February ",2,1,2003
-20030217,03/02/17,31,"NIE","Monday   ","February ",2,1,2003
-20030224,03/02/24,31,"NIE","Monday   ","February ",2,1,2003
-20030303,03/03/03,31,"NIE","Monday   ","March    ",3,1,2003
-20030310,03/03/10,31,"NIE","Monday   ","March    ",3,1,2003
-20030318,03/03/18,32,"NIE","Tuesday  ","March    ",3,1,2003
-20030324,03/03/24,31,"NIE","Monday   ","March    ",3,1,2003
-20030325,03/03/25,32,"NIE","Tuesday  ","March    ",3,1,2003
-20030326,03/03/26,33,"NIE","Wednesday","March    ",3,1,2003
-20030401,03/04/01,32,"NIE","Tuesday  ","April    ",4,2,2003
-20030404,03/04/04,35,"NIE","Friday   ","April    ",4,2,2003
-20030411,03/04/11,35,"NIE","Friday   ","April    ",4,2,2003
-20030416,03/04/16,33,"NIE","Wednesday","April    ",4,2,2003
-20030421,03/04/21,31,"NIE","Monday   ","April    ",4,2,2003
-20030428,03/04/28,31,"NIE","Monday   ","April    ",4,2,2003
-20030429,03/04/29,32,"NIE","Tuesday  ","April    ",4,2,2003
-20030507,03/05/07,33,"NIE","Wednesday","May      ",5,2,2003
-20030508,03/05/08,34,"NIE","Thursday ","May      ",5,2,2003
-20030520,03/05/20,32,"NIE","Tuesday  ","May      ",5,2,2003
-20030521,03/05/21,33,"NIE","Wednesday","May      ",5,2,2003
-20030528,03/05/28,33,"NIE","Wednesday","May      ",5,2,2003
-20030603,03/06/03,32,"NIE","Tuesday  ","June     ",6,2,2003
-20030606,03/06/06,35,"NIE","Friday   ","June     ",6,2,2003
-20030612,03/06/12,34,"NIE","Thursday ","June     ",6,2,2003
-20030616,03/06/16,31,"NIE","Monday   ","June     ",6,2,2003
-20030627,03/06/27,35,"NIE","Friday   ","June     ",6,2,2003
-20030701,03/07/01,32,"NIE","Tuesday  ","July     ",7,3,2003
-20030702,03/07/02,33,"NIE","Wednesday","July     ",7,3,2003
-20030704,03/07/04,35,"NIE","Friday   ","July     ",7,3,2003
-20030710,03/07/10,34,"NIE","Thursday ","July     ",7,3,2003
-20030716,03/07/16,33,"NIE","Wednesday","July     ",7,3,2003
-20030724,03/07/24,34,"NIE","Thursday ","July     ",7,3,2003
-20030801,03/08/01,35,"NIE","Friday   ","August   ",8,3,2003
-20030808,03/08/08,35,"NIE","Friday   ","August   ",8,3,2003
-20030810,03/08/10,37,"NIE","Sunday   ","August   ",8,3,2003
-20030813,03/08/13,33,"NIE","Wednesday","August   ",8,3,2003
-20030825,03/08/25,31,"NIE","Monday   ","August   ",8,3,2003
-20030903,03/09/03,33,"NIE","Wednesday","September",9,3,2003
-20030905,03/09/05,35,"NIE","Friday   ","September",9,3,2003
-20030911,03/09/11,34,"NIE","Thursday ","September",9,3,2003
-20030912,03/09/12,35,"NIE","Friday   ","September",9,3,2003
-20030919,03/09/19,35,"NIE","Friday   ","September",9,3,2003
-20030921,03/09/21,37,"NIE","Sunday   ","September",9,3,2003
-20030925,03/09/25,34,"NIE","Thursday ","September",9,3,2003
-20030928,03/09/28,37,"NIE","Sunday   ","September",9,3,2003
-20031002,03/10/02,34,"NIE","Thursday ","October  ",10,4,2003
-20031004,03/10/04,36,"NIE","Saturday ","October  ",10,4,2003
-20031005,03/10/05,37,"NIE","Sunday   ","October  ",10,4,2003
-20031006,03/10/06,31,"NIE","Monday   ","October  ",10,4,2003
-20031008,03/10/08,33,"NIE","Wednesday","October  ",10,4,2003
-20031010,03/10/10,35,"NIE","Friday   ","October  ",10,4,2003
-20031011,03/10/11,36,"NIE","Saturday ","October  ",10,4,2003
-20031017,03/10/17,35,"NIE","Friday   ","October  ",10,4,2003
-20031018,03/10/18,36,"NIE","Saturday ","October  ",10,4,2003
-20031020,03/10/20,31,"NIE","Monday   ","October  ",10,4,2003
-20031021,03/10/21,32,"NIE","Tuesday  ","October  ",10,4,2003
-20031022,03/10/22,33,"NIE","Wednesday","October  ",10,4,2003
-20031023,03/10/23,34,"NIE","Thursday ","October  ",10,4,2003
-20031028,03/10/28,32,"NIE","Tuesday  ","October  ",10,4,2003
-20031104,03/11/04,32,"NIE","Tuesday  ","November ",11,4,2003
-20031105,03/11/05,33,"NIE","Wednesday","November ",11,4,2003
-20031106,03/11/06,34,"NIE","Thursday ","November ",11,4,2003
-20031107,03/11/07,35,"NIE","Friday   ","November ",11,4,2003
-20031108,03/11/08,36,"NIE","Saturday ","November ",11,4,2003
-20031111,03/11/11,32,"NIE","Tuesday  ","November ",11,4,2003
-20031112,03/11/12,33,"NIE","Wednesday","November ",11,4,2003
-20031113,03/11/13,34,"NIE","Thursday ","November ",11,4,2003
-20031114,03/11/14,35,"NIE","Friday   ","November ",11,4,2003
-20031118,03/11/18,32,"NIE","Tuesday  ","November ",11,4,2003
-20031119,03/11/19,33,"NIE","Wednesday","November ",11,4,2003
-20031120,03/11/20,34,"NIE","Thursday ","November ",11,4,2003
-20031121,03/11/21,35,"NIE","Friday   ","November ",11,4,2003
-20031125,03/11/25,32,"NIE","Tuesday  ","November ",11,4,2003
-20031126,03/11/26,33,"NIE","Wednesday","November ",11,4,2003
-20031127,03/11/27,34,"NIE","Thursday ","November ",11,4,2003
-20031201,03/12/01,31,"NIE","Monday   ","December ",12,4,2003
-20031202,03/12/02,32,"NIE","Tuesday  ","December ",12,4,2003
-20031203,03/12/03,33,"NIE","Wednesday","December ",12,4,2003
-20031205,03/12/05,35,"NIE","Friday   ","December ",12,4,2003
-20031209,03/12/09,32,"NIE","Tuesday  ","December ",12,4,2003
-20040102,04/01/02,45,"NIE","Friday   ","January  ",1,1,2004
-20040109,04/01/09,45,"NIE","Friday   ","January  ",1,1,2004
-20040112,04/01/12,41,"NIE","Monday   ","January  ",1,1,2004
-20040115,04/01/15,44,"NIE","Thursday ","January  ",1,1,2004
-20040116,04/01/16,45,"NIE","Friday   ","January  ",1,1,2004
-20040122,04/01/22,44,"NIE","Thursday ","January  ",1,1,2004
-20040126,04/01/26,41,"NIE","Monday   ","January  ",1,1,2004
-20040129,04/01/29,44,"NIE","Thursday ","January  ",1,1,2004
-20040202,04/02/02,41,"NIE","Monday   ","February ",2,1,2004
-20040204,04/02/04,43,"NIE","Wednesday","February ",2,1,2004
-20040210,04/02/10,42,"NIE","Tuesday  ","February ",2,1,2004
-20040212,04/02/12,44,"NIE","Thursday ","February ",2,1,2004
-20040218,04/02/18,43,"NIE","Wednesday","February ",2,1,2004
-20040219,04/02/19,44,"NIE","Thursday ","February ",2,1,2004
-20040220,04/02/20,45,"NIE","Friday   ","February ",2,1,2004
-20040221,04/02/21,46,"NIE","Saturday ","February ",2,1,2004
-20040222,04/02/22,47,"NIE","Sunday   ","February ",2,1,2004
-20040226,04/02/26,44,"NIE","Thursday ","February ",2,1,2004
-20040302,04/03/02,42,"NIE","Tuesday  ","March    ",3,1,2004
-20040310,04/03/10,43,"NIE","Wednesday","March    ",3,1,2004
-20040311,04/03/11,44,"NIE","Thursday ","March    ",3,1,2004
-20040315,04/03/15,41,"NIE","Monday   ","March    ",3,1,2004
-20040319,04/03/19,45,"NIE","Friday   ","March    ",3,1,2004
-20040320,04/03/20,46,"NIE","Saturday ","March    ",3,1,2004
-20040329,04/03/29,41,"NIE","Monday   ","March    ",3,1,2004
-20040402,04/04/02,45,"NIE","Friday   ","April    ",4,2,2004
-20040403,04/04/03,46,"NIE","Saturday ","April    ",4,2,2004
-20040405,04/04/05,41,"NIE","Monday   ","April    ",4,2,2004
-20040409,04/04/09,45,"NIE","Friday   ","April    ",4,2,2004
-20040412,04/04/12,41,"NIE","Monday   ","April    ",4,2,2004
-20040413,04/04/13,42,"NIE","Tuesday  ","April    ",4,2,2004
-20040420,04/04/20,42,"NIE","Tuesday  ","April    ",4,2,2004
-20040426,04/04/26,41,"NIE","Monday   ","April    ",4,2,2004
-20040429,04/04/29,44,"NIE","Thursday ","April    ",4,2,2004
-20040504,04/05/04,42,"NIE","Tuesday  ","May      ",5,2,2004
-20040505,04/05/05,43,"NIE","Wednesday","May      ",5,2,2004
-20040507,04/05/07,45,"NIE","Friday   ","May      ",5,2,2004
-20040508,04/05/08,46,"NIE","Saturday ","May      ",5,2,2004
-20040511,04/05/11,42,"NIE","Tuesday  ","May      ",5,2,2004
-20040518,04/05/18,42,"NIE","Tuesday  ","May      ",5,2,2004
-20040526,04/05/26,43,"NIE","Wednesday","May      ",5,2,2004
-20040601,04/06/01,42,"NIE","Tuesday  ","June     ",6,2,2004
-20040604,04/06/04,45,"NIE","Friday   ","June     ",6,2,2004
-20040608,04/06/08,42,"NIE","Tuesday  ","June     ",6,2,2004
-20040614,04/06/14,41,"NIE","Monday   ","June     ",6,2,2004
-20040615,04/06/15,42,"NIE","Tuesday  ","June     ",6,2,2004
-20040617,04/06/17,44,"NIE","Thursday ","June     ",6,2,2004
-20040624,04/06/24,44,"NIE","Thursday ","June     ",6,2,2004
-20040628,04/06/28,41,"NIE","Monday   ","June     ",6,2,2004
-20040630,04/06/30,43,"NIE","Wednesday","June     ",6,2,2004
-20040702,04/07/02,45,"NIE","Friday   ","July     ",7,3,2004
-20040706,04/07/06,42,"NIE","Tuesday  ","July     ",7,3,2004
-20040707,04/07/07,43,"NIE","Wednesday","July     ",7,3,2004
-20040716,04/07/16,45,"NIE","Friday   ","July     ",7,3,2004
-20040719,04/07/19,41,"NIE","Monday   ","July     ",7,3,2004
-20040720,04/07/20,42,"NIE","Tuesday  ","July     ",7,3,2004
-20040721,04/07/21,43,"NIE","Wednesday","July     ",7,3,2004
-20040723,04/07/23,45,"NIE","Friday   ","July     ",7,3,2004
-20040802,04/08/02,41,"NIE","Monday   ","August   ",8,3,2004
-20040804,04/08/04,43,"NIE","Wednesday","August   ",8,3,2004
-20040806,04/08/06,45,"NIE","Friday   ","August   ",8,3,2004
-20040809,04/08/09,41,"NIE","Monday   ","August   ",8,3,2004
-20040817,04/08/17,42,"NIE","Tuesday  ","August   ",8,3,2004
-20040819,04/08/19,44,"NIE","Thursday ","August   ",8,3,2004
-20040820,04/08/20,45,"NIE","Friday   ","August   ",8,3,2004
-20040821,04/08/21,46,"NIE","Saturday ","August   ",8,3,2004
-20040827,04/08/27,45,"NIE","Friday   ","August   ",8,3,2004
-20040828,04/08/28,46,"NIE","Saturday ","August   ",8,3,2004
-20040830,04/08/30,41,"NIE","Monday   ","August   ",8,3,2004
-20040901,04/09/01,43,"NIE","Wednesday","September",9,3,2004
-20040903,04/09/03,45,"NIE","Friday   ","September",9,3,2004
-20040907,04/09/07,42,"NIE","Tuesday  ","September",9,3,2004
-20040908,04/09/08,43,"NIE","Wednesday","September",9,3,2004
-20040909,04/09/09,44,"NIE","Thursday ","September",9,3,2004
-20040910,04/09/10,45,"NIE","Friday   ","September",9,3,2004
-20040915,04/09/15,43,"NIE","Wednesday","September",9,3,2004
-20040916,04/09/16,44,"NIE","Thursday ","September",9,3,2004
-20040927,04/09/27,41,"NIE","Monday   ","September",9,3,2004
-20040930,04/09/30,44,"NIE","Thursday ","September",9,3,2004
-20041006,04/10/06,43,"NIE","Wednesday","October  ",10,4,2004
-20041011,04/10/11,41,"NIE","Monday   ","October  ",10,4,2004
-20041013,04/10/13,43,"NIE","Wednesday","October  ",10,4,2004
-20041014,04/10/14,44,"NIE","Thursday ","October  ",10,4,2004
-20041015,04/10/15,45,"NIE","Friday   ","October  ",10,4,2004
-20041016,04/10/16,46,"NIE","Saturday ","October  ",10,4,2004
-20041021,04/10/21,44,"NIE","Thursday ","October  ",10,4,2004
-20041022,04/10/22,45,"NIE","Friday   ","October  ",10,4,2004
-20041029,04/10/29,45,"NIE","Friday   ","October  ",10,4,2004
-20041101,04/11/01,41,"NIE","Monday   ","November ",11,4,2004
-20041102,04/11/02,42,"NIE","Tuesday  ","November ",11,4,2004
-20041103,04/11/03,43,"NIE","Wednesday","November ",11,4,2004
-20041104,04/11/04,44,"NIE","Thursday ","November ",11,4,2004
-20041105,04/11/05,45,"NIE","Friday   ","November ",11,4,2004
-20041109,04/11/09,42,"NIE","Tuesday  ","November ",11,4,2004
-20041110,04/11/10,43,"NIE","Wednesday","November ",11,4,2004
-20041112,04/11/12,45,"NIE","Friday   ","November ",11,4,2004
-20041115,04/11/15,41,"NIE","Monday   ","November ",11,4,2004
-20041116,04/11/16,42,"NIE","Tuesday  ","November ",11,4,2004
-20041117,04/11/17,43,"NIE","Wednesday","November ",11,4,2004
-20041118,04/11/18,44,"NIE","Thursday ","November ",11,4,2004
-20041119,04/11/19,45,"NIE","Friday   ","November ",11,4,2004
-20041120,04/11/20,46,"NIE","Saturday ","November ",11,4,2004
-20041121,04/11/21,47,"NIE","Sunday   ","November ",11,4,2004
-20041122,04/11/22,41,"NIE","Monday   ","November ",11,4,2004
-20041123,04/11/23,42,"NIE","Tuesday  ","November ",11,4,2004
-20041124,04/11/24,43,"NIE","Wednesday","November ",11,4,2004
-20041125,04/11/25,44,"NIE","Thursday ","November ",11,4,2004
-20041129,04/11/29,41,"NIE","Monday   ","November ",11,4,2004
-20041201,04/12/01,43,"NIE","Wednesday","December ",12,4,2004
-20041202,04/12/02,44,"NIE","Thursday ","December ",12,4,2004
-20041203,04/12/03,45,"NIE","Friday   ","December ",12,4,2004
-20041204,04/12/04,46,"NIE","Saturday ","December ",12,4,2004
-20041207,04/12/07,42,"NIE","Tuesday  ","December ",12,4,2004
-20041209,04/12/09,44,"NIE","Thursday ","December ",12,4,2004
-20041210,04/12/10,45,"NIE","Friday   ","December ",12,4,2004
-20041215,04/12/15,43,"NIE","Wednesday","December ",12,4,2004
-20041217,04/12/17,45,"NIE","Friday   ","December ",12,4,2004
-20050105,05/01/05,53,"NIE","Wednesday","January  ",1,1,2005
-20050106,05/01/06,54,"NIE","Thursday ","January  ",1,1,2005
-20050107,05/01/07,55,"NIE","Friday   ","January  ",1,1,2005
-20050110,05/01/10,51,"NIE","Monday   ","January  ",1,1,2005
-20050112,05/01/12,53,"NIE","Wednesday","January  ",1,1,2005
-20050119,05/01/19,53,"NIE","Wednesday","January  ",1,1,2005
-20050120,05/01/20,54,"NIE","Thursday ","January  ",1,1,2005
-20050123,05/01/23,57,"NIE","Sunday   ","January  ",1,1,2005
-20050126,05/01/26,53,"NIE","Wednesday","January  ",1,1,2005
-20050131,05/01/31,51,"NIE","Monday   ","January  ",1,1,2005
-20050202,05/02/02,53,"NIE","Wednesday","February ",2,1,2005
-20050203,05/02/03,54,"NIE","Thursday ","February ",2,1,2005
-20050208,05/02/08,52,"NIE","Tuesday  ","February ",2,1,2005
-20050209,05/02/09,53,"NIE","Wednesday","February ",2,1,2005
-20050210,05/02/10,54,"NIE","Thursday ","February ",2,1,2005
-20050216,05/02/16,53,"NIE","Wednesday","February ",2,1,2005
-20050217,05/02/17,54,"NIE","Thursday ","February ",2,1,2005
-20050222,05/02/22,52,"NIE","Tuesday  ","February ",2,1,2005
-20050223,05/02/23,53,"NIE","Wednesday","February ",2,1,2005
-20050228,05/02/28,51,"NIE","Monday   ","February ",2,1,2005
-20050301,05/03/01,52,"NIE","Tuesday  ","March    ",3,1,2005
-20050302,05/03/02,53,"NIE","Wednesday","March    ",3,1,2005
-20050303,05/03/03,54,"NIE","Thursday ","March    ",3,1,2005
-20050304,05/03/04,55,"NIE","Friday   ","March    ",3,1,2005
-20050309,05/03/09,53,"NIE","Wednesday","March    ",3,1,2005
-20050310,05/03/10,54,"NIE","Thursday ","March    ",3,1,2005
-20050315,05/03/15,52,"NIE","Tuesday  ","March    ",3,1,2005
-20050317,05/03/17,54,"NIE","Thursday ","March    ",3,1,2005
-20050323,05/03/23,53,"NIE","Wednesday","March    ",3,1,2005
-20050328,05/03/28,51,"NIE","Monday   ","March    ",3,1,2005
-20050330,05/03/30,53,"NIE","Wednesday","March    ",3,1,2005
-20050401,05/04/01,55,"NIE","Friday   ","April    ",4,2,2005
-20050403,05/04/03,57,"NIE","Sunday   ","April    ",4,2,2005
-20050407,05/04/07,54,"NIE","Thursday ","April    ",4,2,2005
-20050408,05/04/08,55,"NIE","Friday   ","April    ",4,2,2005
-20050414,05/04/14,54,"NIE","Thursday ","April    ",4,2,2005
-20050415,05/04/15,55,"NIE","Friday   ","April    ",4,2,2005
-20050422,05/04/22,55,"NIE","Friday   ","April    ",4,2,2005
-20050423,05/04/23,56,"NIE","Saturday ","April    ",4,2,2005
-20050501,05/05/01,57,"NIE","Sunday   ","May      ",5,2,2005
-20050503,05/05/03,52,"NIE","Tuesday  ","May      ",5,2,2005
-20050505,05/05/05,54,"NIE","Thursday ","May      ",5,2,2005
-20050506,05/05/06,55,"NIE","Friday   ","May      ",5,2,2005
-20050509,05/05/09,51,"NIE","Monday   ","May      ",5,2,2005
-20050510,05/05/10,52,"NIE","Tuesday  ","May      ",5,2,2005
-20050513,05/05/13,55,"NIE","Friday   ","May      ",5,2,2005
-20050517,05/05/17,52,"NIE","Tuesday  ","May      ",5,2,2005
-20050529,05/05/29,57,"NIE","Sunday   ","May      ",5,2,2005
-20050530,05/05/30,51,"NIE","Monday   ","May      ",5,2,2005
-20050531,05/05/31,52,"NIE","Tuesday  ","May      ",5,2,2005
+"ID_CZASU"	"DATA_SPRZEDAZY"	"DZIEN_TYG_NUMER"	"CZY_WEEKEND"	"DZIEN_TYG_NAZWA"	"MIESIAC_NAZWA"	"MIESIAC_NUMER"	"KWARTAL_NUMER"	"ROK"
+20040907	04/09/07	42	"NIE"	"Tuesday  "	"September"	9	3	2004
+20030808	03/08/08	35	"NIE"	"Friday   "	"August   "	8	3	2003
+20030928	03/09/28	37	"NIE"	"Sunday   "	"September"	9	3	2003
+20050131	05/01/31	51	"NIE"	"Monday   "	"January  "	1	1	2005
+20050330	05/03/30	53	"NIE"	"Wednesday"	"March    "	3	1	2005
+20030508	03/05/08	34	"NIE"	"Thursday "	"May      "	5	2	2003
+20030921	03/09/21	37	"NIE"	"Sunday   "	"September"	9	3	2003
+20031209	03/12/09	32	"NIE"	"Tuesday  "	"December "	12	4	2003
+20041122	04/11/22	41	"NIE"	"Monday   "	"November "	11	4	2004
+20031127	03/11/27	34	"NIE"	"Thursday "	"November "	11	4	2003
+20040821	04/08/21	46	"NIE"	"Saturday "	"August   "	8	3	2004
+20041104	04/11/04	44	"NIE"	"Thursday "	"November "	11	4	2004
+20040310	04/03/10	43	"NIE"	"Wednesday"	"March    "	3	1	2004
+20040429	04/04/29	44	"NIE"	"Thursday "	"April    "	4	2	2004
+20041021	04/10/21	44	"NIE"	"Thursday "	"October  "	10	4	2004
+20050112	05/01/12	53	"NIE"	"Wednesday"	"January  "	1	1	2005
+20040122	04/01/22	44	"NIE"	"Thursday "	"January  "	1	1	2004
+20030801	03/08/01	35	"NIE"	"Friday   "	"August   "	8	3	2003
+20031006	03/10/06	31	"NIE"	"Monday   "	"October  "	10	4	2003
+20040115	04/01/15	44	"NIE"	"Thursday "	"January  "	1	1	2004
+20040403	04/04/03	46	"NIE"	"Saturday "	"April    "	4	2	2004
+20040706	04/07/06	42	"NIE"	"Tuesday  "	"July     "	7	3	2004
+20030813	03/08/13	33	"NIE"	"Wednesday"	"August   "	8	3	2003
+20040420	04/04/20	42	"NIE"	"Tuesday  "	"April    "	4	2	2004
+20030702	03/07/02	33	"NIE"	"Wednesday"	"July     "	7	3	2003
+20040819	04/08/19	44	"NIE"	"Thursday "	"August   "	8	3	2004
+20041120	04/11/20	46	"NIE"	"Saturday "	"November "	11	4	2004
+20040518	04/05/18	42	"NIE"	"Tuesday  "	"May      "	5	2	2004
+20040927	04/09/27	41	"NIE"	"Monday   "	"September"	9	3	2004
+20050302	05/03/02	53	"NIE"	"Wednesday"	"March    "	3	1	2005
+20030401	03/04/01	32	"NIE"	"Tuesday  "	"April    "	4	2	2003
+20031004	03/10/04	36	"NIE"	"Saturday "	"October  "	10	4	2003
+20031005	03/10/05	37	"NIE"	"Sunday   "	"October  "	10	4	2003
+20041125	04/11/25	44	"NIE"	"Thursday "	"November "	11	4	2004
+20031108	03/11/08	36	"NIE"	"Saturday "	"November "	11	4	2003
+20040210	04/02/10	42	"NIE"	"Tuesday  "	"February "	2	1	2004
+20040617	04/06/17	44	"NIE"	"Thursday "	"June     "	6	2	2004
+20050217	05/02/17	54	"NIE"	"Thursday "	"February "	2	1	2005
+20040707	04/07/07	43	"NIE"	"Wednesday"	"July     "	7	3	2004
+20041209	04/12/09	44	"NIE"	"Thursday "	"December "	12	4	2004
+20040402	04/04/02	45	"NIE"	"Friday   "	"April    "	4	2	2004
+20030724	03/07/24	34	"NIE"	"Thursday "	"July     "	7	3	2003
+20040116	04/01/16	45	"NIE"	"Friday   "	"January  "	1	1	2004
+20050422	05/04/22	55	"NIE"	"Friday   "	"April    "	4	2	2005
+20041123	04/11/23	42	"NIE"	"Tuesday  "	"November "	11	4	2004
+20031119	03/11/19	33	"NIE"	"Wednesday"	"November "	11	4	2003
+20050505	05/05/05	54	"NIE"	"Thursday "	"May      "	5	2	2005
+20040112	04/01/12	41	"NIE"	"Monday   "	"January  "	1	1	2004
+20030217	03/02/17	31	"NIE"	"Monday   "	"February "	2	1	2003
+20030521	03/05/21	33	"NIE"	"Wednesday"	"May      "	5	2	2003
+20041022	04/10/22	45	"NIE"	"Friday   "	"October  "	10	4	2004
+20041121	04/11/21	47	"NIE"	"Sunday   "	"November "	11	4	2004
+20041129	04/11/29	41	"NIE"	"Monday   "	"November "	11	4	2004
+20041202	04/12/02	44	"NIE"	"Thursday "	"December "	12	4	2004
+20030303	03/03/03	31	"NIE"	"Monday   "	"March    "	3	1	2003
+20040412	04/04/12	41	"NIE"	"Monday   "	"April    "	4	2	2004
+20040504	04/05/04	42	"NIE"	"Tuesday  "	"May      "	5	2	2004
+20031114	03/11/14	35	"NIE"	"Friday   "	"November "	11	4	2003
+20041103	04/11/03	43	"NIE"	"Wednesday"	"November "	11	4	2004
+20031106	03/11/06	34	"NIE"	"Thursday "	"November "	11	4	2003
+20040915	04/09/15	43	"NIE"	"Wednesday"	"September"	9	3	2004
+20030318	03/03/18	32	"NIE"	"Tuesday  "	"March    "	3	1	2003
+20040702	04/07/02	45	"NIE"	"Friday   "	"July     "	7	3	2004
+20050222	05/02/22	52	"NIE"	"Tuesday  "	"February "	2	1	2005
+20030310	03/03/10	31	"NIE"	"Monday   "	"March    "	3	1	2003
+20041115	04/11/15	41	"NIE"	"Monday   "	"November "	11	4	2004
+20050323	05/03/23	53	"NIE"	"Wednesday"	"March    "	3	1	2005
+20040507	04/05/07	45	"NIE"	"Friday   "	"May      "	5	2	2004
+20050529	05/05/29	57	"NIE"	"Sunday   "	"May      "	5	2	2005
+20030627	03/06/27	35	"NIE"	"Friday   "	"June     "	6	2	2003
+20031202	03/12/02	32	"NIE"	"Tuesday  "	"December "	12	4	2003
+20040109	04/01/09	45	"NIE"	"Friday   "	"January  "	1	1	2004
+20040319	04/03/19	45	"NIE"	"Friday   "	"March    "	3	1	2004
+20050304	05/03/04	55	"NIE"	"Friday   "	"March    "	3	1	2005
+20050501	05/05/01	57	"NIE"	"Sunday   "	"May      "	5	2	2005
+20030528	03/05/28	33	"NIE"	"Wednesday"	"May      "	5	2	2003
+20050120	05/01/20	54	"NIE"	"Thursday "	"January  "	1	1	2005
+20030129	03/01/29	33	"NIE"	"Wednesday"	"January  "	1	1	2003
+20030416	03/04/16	33	"NIE"	"Wednesday"	"April    "	4	2	2003
+20031107	03/11/07	35	"NIE"	"Friday   "	"November "	11	4	2003
+20040910	04/09/10	45	"NIE"	"Friday   "	"September"	9	3	2004
+20031111	03/11/11	32	"NIE"	"Tuesday  "	"November "	11	4	2003
+20031126	03/11/26	33	"NIE"	"Wednesday"	"November "	11	4	2003
+20040202	04/02/02	41	"NIE"	"Monday   "	"February "	2	1	2004
+20041124	04/11/24	43	"NIE"	"Wednesday"	"November "	11	4	2004
+20050510	05/05/10	52	"NIE"	"Tuesday  "	"May      "	5	2	2005
+20040601	04/06/01	42	"NIE"	"Tuesday  "	"June     "	6	2	2004
+20040608	04/06/08	42	"NIE"	"Tuesday  "	"June     "	6	2	2004
+20031010	03/10/10	35	"NIE"	"Friday   "	"October  "	10	4	2003
+20031023	03/10/23	34	"NIE"	"Thursday "	"October  "	10	4	2003
+20031118	03/11/18	32	"NIE"	"Tuesday  "	"November "	11	4	2003
+20031201	03/12/01	31	"NIE"	"Monday   "	"December "	12	4	2003
+20040809	04/08/09	41	"NIE"	"Monday   "	"August   "	8	3	2004
+20050503	05/05/03	52	"NIE"	"Tuesday  "	"May      "	5	2	2005
+20030110	03/01/10	35	"NIE"	"Friday   "	"January  "	1	1	2003
+20041112	04/11/12	45	"NIE"	"Friday   "	"November "	11	4	2004
+20050414	05/04/14	54	"NIE"	"Thursday "	"April    "	4	2	2005
+20030324	03/03/24	31	"NIE"	"Monday   "	"March    "	3	1	2003
+20050407	05/04/07	54	"NIE"	"Thursday "	"April    "	4	2	2005
+20050415	05/04/15	55	"NIE"	"Friday   "	"April    "	4	2	2005
+20030603	03/06/03	32	"NIE"	"Tuesday  "	"June     "	6	2	2003
+20030911	03/09/11	34	"NIE"	"Thursday "	"September"	9	3	2003
+20030325	03/03/25	32	"NIE"	"Tuesday  "	"March    "	3	1	2003
+20040830	04/08/30	41	"NIE"	"Monday   "	"August   "	8	3	2004
+20041102	04/11/02	42	"NIE"	"Tuesday  "	"November "	11	4	2004
+20050208	05/02/08	52	"NIE"	"Tuesday  "	"February "	2	1	2005
+20050223	05/02/23	53	"NIE"	"Wednesday"	"February "	2	1	2005
+20030211	03/02/11	32	"NIE"	"Tuesday  "	"February "	2	1	2003
+20040817	04/08/17	42	"NIE"	"Tuesday  "	"August   "	8	3	2004
+20041013	04/10/13	43	"NIE"	"Wednesday"	"October  "	10	4	2004
+20041105	04/11/05	45	"NIE"	"Friday   "	"November "	11	4	2004
+20030704	03/07/04	35	"NIE"	"Friday   "	"July     "	7	3	2003
+20040218	04/02/18	43	"NIE"	"Wednesday"	"February "	2	1	2004
+20040311	04/03/11	44	"NIE"	"Thursday "	"March    "	3	1	2004
+20040723	04/07/23	45	"NIE"	"Friday   "	"July     "	7	3	2004
+20041217	04/12/17	45	"NIE"	"Friday   "	"December "	12	4	2004
+20030429	03/04/29	32	"NIE"	"Tuesday  "	"April    "	4	2	2003
+20040802	04/08/02	41	"NIE"	"Monday   "	"August   "	8	3	2004
+20031203	03/12/03	33	"NIE"	"Wednesday"	"December "	12	4	2003
+20050105	05/01/05	53	"NIE"	"Wednesday"	"January  "	1	1	2005
+20031205	03/12/05	35	"NIE"	"Friday   "	"December "	12	4	2003
+20050328	05/03/28	51	"NIE"	"Monday   "	"March    "	3	1	2005
+20040908	04/09/08	43	"NIE"	"Wednesday"	"September"	9	3	2004
+20041006	04/10/06	43	"NIE"	"Wednesday"	"October  "	10	4	2004
+20050310	05/03/10	54	"NIE"	"Thursday "	"March    "	3	1	2005
+20030919	03/09/19	35	"NIE"	"Friday   "	"September"	9	3	2003
+20040720	04/07/20	42	"NIE"	"Tuesday  "	"July     "	7	3	2004
+20050203	05/02/03	54	"NIE"	"Thursday "	"February "	2	1	2005
+20030710	03/07/10	34	"NIE"	"Thursday "	"July     "	7	3	2003
+20050403	05/04/03	57	"NIE"	"Sunday   "	"April    "	4	2	2005
+20030701	03/07/01	32	"NIE"	"Tuesday  "	"July     "	7	3	2003
+20040226	04/02/26	44	"NIE"	"Thursday "	"February "	2	1	2004
+20050209	05/02/09	53	"NIE"	"Wednesday"	"February "	2	1	2005
+20050315	05/03/15	52	"NIE"	"Tuesday  "	"March    "	3	1	2005
+20030411	03/04/11	35	"NIE"	"Friday   "	"April    "	4	2	2003
+20031002	03/10/02	34	"NIE"	"Thursday "	"October  "	10	4	2003
+20041014	04/10/14	44	"NIE"	"Thursday "	"October  "	10	4	2004
+20041119	04/11/19	45	"NIE"	"Friday   "	"November "	11	4	2004
+20050423	05/04/23	56	"NIE"	"Saturday "	"April    "	4	2	2005
+20030612	03/06/12	34	"NIE"	"Thursday "	"June     "	6	2	2003
+20040828	04/08/28	46	"NIE"	"Saturday "	"August   "	8	3	2004
+20041109	04/11/09	42	"NIE"	"Tuesday  "	"November "	11	4	2004
+20030912	03/09/12	35	"NIE"	"Friday   "	"September"	9	3	2003
+20040219	04/02/19	44	"NIE"	"Thursday "	"February "	2	1	2004
+20040222	04/02/22	47	"NIE"	"Sunday   "	"February "	2	1	2004
+20040329	04/03/29	41	"NIE"	"Monday   "	"March    "	3	1	2004
+20031008	03/10/08	33	"NIE"	"Wednesday"	"October  "	10	4	2003
+20040409	04/04/09	45	"NIE"	"Friday   "	"April    "	4	2	2004
+20031105	03/11/05	33	"NIE"	"Wednesday"	"November "	11	4	2003
+20040405	04/04/05	41	"NIE"	"Monday   "	"April    "	4	2	2004
+20040719	04/07/19	41	"NIE"	"Monday   "	"July     "	7	3	2004
+20040804	04/08/04	43	"NIE"	"Wednesday"	"August   "	8	3	2004
+20041203	04/12/03	45	"NIE"	"Friday   "	"December "	12	4	2004
+20041207	04/12/07	42	"NIE"	"Tuesday  "	"December "	12	4	2004
+20031018	03/10/18	36	"NIE"	"Saturday "	"October  "	10	4	2003
+20040204	04/02/04	43	"NIE"	"Wednesday"	"February "	2	1	2004
+20050531	05/05/31	52	"NIE"	"Tuesday  "	"May      "	5	2	2005
+20030606	03/06/06	35	"NIE"	"Friday   "	"June     "	6	2	2003
+20040901	04/09/01	43	"NIE"	"Wednesday"	"September"	9	3	2004
+20030428	03/04/28	31	"NIE"	"Monday   "	"April    "	4	2	2003
+20050506	05/05/06	55	"NIE"	"Friday   "	"May      "	5	2	2005
+20031021	03/10/21	32	"NIE"	"Tuesday  "	"October  "	10	4	2003
+20041215	04/12/15	43	"NIE"	"Wednesday"	"December "	12	4	2004
+20050110	05/01/10	51	"NIE"	"Monday   "	"January  "	1	1	2005
+20030106	03/01/06	31	"NIE"	"Monday   "	"January  "	1	1	2003
+20031104	03/11/04	32	"NIE"	"Tuesday  "	"November "	11	4	2003
+20031022	03/10/22	33	"NIE"	"Wednesday"	"October  "	10	4	2003
+20040212	04/02/12	44	"NIE"	"Thursday "	"February "	2	1	2004
+20040930	04/09/30	44	"NIE"	"Thursday "	"September"	9	3	2004
+20040916	04/09/16	44	"NIE"	"Thursday "	"September"	9	3	2004
+20031120	03/11/20	34	"NIE"	"Thursday "	"November "	11	4	2003
+20050301	05/03/01	52	"NIE"	"Tuesday  "	"March    "	3	1	2005
+20050317	05/03/17	54	"NIE"	"Thursday "	"March    "	3	1	2005
+20030224	03/02/24	31	"NIE"	"Monday   "	"February "	2	1	2003
+20030421	03/04/21	31	"NIE"	"Monday   "	"April    "	4	2	2003
+20041029	04/10/29	45	"NIE"	"Friday   "	"October  "	10	4	2004
+20040413	04/04/13	42	"NIE"	"Tuesday  "	"April    "	4	2	2004
+20030716	03/07/16	33	"NIE"	"Wednesday"	"July     "	7	3	2003
+20030905	03/09/05	35	"NIE"	"Friday   "	"September"	9	3	2003
+20050126	05/01/26	53	"NIE"	"Wednesday"	"January  "	1	1	2005
+20040505	04/05/05	43	"NIE"	"Wednesday"	"May      "	5	2	2004
+20050509	05/05/09	51	"NIE"	"Monday   "	"May      "	5	2	2005
+20040315	04/03/15	41	"NIE"	"Monday   "	"March    "	3	1	2004
+20040129	04/01/29	44	"NIE"	"Thursday "	"January  "	1	1	2004
+20041110	04/11/10	43	"NIE"	"Wednesday"	"November "	11	4	2004
+20030404	03/04/04	35	"NIE"	"Friday   "	"April    "	4	2	2003
+20040320	04/03/20	46	"NIE"	"Saturday "	"March    "	3	1	2004
+20040628	04/06/28	41	"NIE"	"Monday   "	"June     "	6	2	2004
+20050517	05/05/17	52	"NIE"	"Tuesday  "	"May      "	5	2	2005
+20030810	03/08/10	37	"NIE"	"Sunday   "	"August   "	8	3	2003
+20030109	03/01/09	34	"NIE"	"Thursday "	"January  "	1	1	2003
+20030825	03/08/25	31	"NIE"	"Monday   "	"August   "	8	3	2003
+20040630	04/06/30	43	"NIE"	"Wednesday"	"June     "	6	2	2004
+20031112	03/11/12	33	"NIE"	"Wednesday"	"November "	11	4	2003
+20040526	04/05/26	43	"NIE"	"Wednesday"	"May      "	5	2	2004
+20041015	04/10/15	45	"NIE"	"Friday   "	"October  "	10	4	2004
+20041101	04/11/01	41	"NIE"	"Monday   "	"November "	11	4	2004
+20040604	04/06/04	45	"NIE"	"Friday   "	"June     "	6	2	2004
+20041011	04/10/11	41	"NIE"	"Monday   "	"October  "	10	4	2004
+20040806	04/08/06	45	"NIE"	"Friday   "	"August   "	8	3	2004
+20040126	04/01/26	41	"NIE"	"Monday   "	"January  "	1	1	2004
+20040220	04/02/20	45	"NIE"	"Friday   "	"February "	2	1	2004
+20031011	03/10/11	36	"NIE"	"Saturday "	"October  "	10	4	2003
+20050401	05/04/01	55	"NIE"	"Friday   "	"April    "	4	2	2005
+20050530	05/05/30	51	"NIE"	"Monday   "	"May      "	5	2	2005
+20040903	04/09/03	45	"NIE"	"Friday   "	"September"	9	3	2004
+20040426	04/04/26	41	"NIE"	"Monday   "	"April    "	4	2	2004
+20040624	04/06/24	44	"NIE"	"Thursday "	"June     "	6	2	2004
+20040827	04/08/27	45	"NIE"	"Friday   "	"August   "	8	3	2004
+20050107	05/01/07	55	"NIE"	"Friday   "	"January  "	1	1	2005
+20040721	04/07/21	43	"NIE"	"Wednesday"	"July     "	7	3	2004
+20050216	05/02/16	53	"NIE"	"Wednesday"	"February "	2	1	2005
+20050309	05/03/09	53	"NIE"	"Wednesday"	"March    "	3	1	2005
+20050408	05/04/08	55	"NIE"	"Friday   "	"April    "	4	2	2005
+20050106	05/01/06	54	"NIE"	"Thursday "	"January  "	1	1	2005
+20050210	05/02/10	54	"NIE"	"Thursday "	"February "	2	1	2005
+20050228	05/02/28	51	"NIE"	"Monday   "	"February "	2	1	2005
+20031121	03/11/21	35	"NIE"	"Friday   "	"November "	11	4	2003
+20040511	04/05/11	42	"NIE"	"Tuesday  "	"May      "	5	2	2004
+20030616	03/06/16	31	"NIE"	"Monday   "	"June     "	6	2	2003
+20040614	04/06/14	41	"NIE"	"Monday   "	"June     "	6	2	2004
+20030507	03/05/07	33	"NIE"	"Wednesday"	"May      "	5	2	2003
+20040716	04/07/16	45	"NIE"	"Friday   "	"July     "	7	3	2004
+20040302	04/03/02	42	"NIE"	"Tuesday  "	"March    "	3	1	2004
+20041116	04/11/16	42	"NIE"	"Tuesday  "	"November "	11	4	2004
+20031113	03/11/13	34	"NIE"	"Thursday "	"November "	11	4	2003
+20030131	03/01/31	35	"NIE"	"Friday   "	"January  "	1	1	2003
+20030520	03/05/20	32	"NIE"	"Tuesday  "	"May      "	5	2	2003
+20030903	03/09/03	33	"NIE"	"Wednesday"	"September"	9	3	2003
+20031017	03/10/17	35	"NIE"	"Friday   "	"October  "	10	4	2003
+20031020	03/10/20	31	"NIE"	"Monday   "	"October  "	10	4	2003
+20031125	03/11/25	32	"NIE"	"Tuesday  "	"November "	11	4	2003
+20041210	04/12/10	45	"NIE"	"Friday   "	"December "	12	4	2004
+20041117	04/11/17	43	"NIE"	"Wednesday"	"November "	11	4	2004
+20040909	04/09/09	44	"NIE"	"Thursday "	"September"	9	3	2004
+20030925	03/09/25	34	"NIE"	"Thursday "	"September"	9	3	2003
+20050123	05/01/23	57	"NIE"	"Sunday   "	"January  "	1	1	2005
+20050202	05/02/02	53	"NIE"	"Wednesday"	"February "	2	1	2005
+20041118	04/11/18	44	"NIE"	"Thursday "	"November "	11	4	2004
+20050119	05/01/19	53	"NIE"	"Wednesday"	"January  "	1	1	2005
+20040615	04/06/15	42	"NIE"	"Tuesday  "	"June     "	6	2	2004
+20050303	05/03/03	54	"NIE"	"Thursday "	"March    "	3	1	2005
+20040508	04/05/08	46	"NIE"	"Saturday "	"May      "	5	2	2004
+20040820	04/08/20	45	"NIE"	"Friday   "	"August   "	8	3	2004
+20041201	04/12/01	43	"NIE"	"Wednesday"	"December "	12	4	2004
+20031028	03/10/28	32	"NIE"	"Tuesday  "	"October  "	10	4	2003
+20041204	04/12/04	46	"NIE"	"Saturday "	"December "	12	4	2004
+20030326	03/03/26	33	"NIE"	"Wednesday"	"March    "	3	1	2003
+20041016	04/10/16	46	"NIE"	"Saturday "	"October  "	10	4	2004
+20040102	04/01/02	45	"NIE"	"Friday   "	"January  "	1	1	2004
+20040221	04/02/21	46	"NIE"	"Saturday "	"February "	2	1	2004
+20050513	05/05/13	55	"NIE"	"Friday   "	"May      "	5	2	2005
