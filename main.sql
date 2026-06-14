@@ -278,3 +278,26 @@ SELECT * FROM produkty FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM czas ORDER BY id_czasu FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM klient FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM sprzedaz FETCH FIRST 10 ROWS ONLY;
+
+
+SELECT 
+    s.order_number, 
+    s.order_line_number, 
+    k.customer_name, 
+    p.kod_produktu, 
+    s.sales
+FROM sprzedaz s
+JOIN klient k ON s.id_klienta = k.id_klienta
+JOIN produkty p ON s.id_produktu = p.id_produktu
+ORDER BY s.order_number, s.order_line_number
+FETCH FIRST 10 ROWS ONLY;
+
+SELECT 
+    ordernumber, 
+    orderlinenumber, 
+    SUBSTR(customername, 1, 30) AS customername, 
+    SUBSTR(productcode, 1, 20) AS productcode, 
+    sales
+FROM temp
+ORDER BY ordernumber, orderlinenumber
+FETCH FIRST 10 ROWS ONLY;
