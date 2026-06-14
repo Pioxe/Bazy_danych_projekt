@@ -146,8 +146,8 @@ WHEN NOT MATCHED THEN
     VALUES (
         TO_NUMBER(TO_CHAR(s.czysta_data, 'YYYYMMDD')),
         s.czysta_data,
-        TO_NUMBER(TO_CHAR(s.czysta_data, 'ID')),
-        CASE WHEN TO_CHAR(s.czysta_data, 'ID') IN ('6', '7') THEN 'TAK' ELSE 'NIE' END,
+        TO_NUMBER(TO_CHAR(s.czysta_data, 'D')),
+        CASE WHEN TO_CHAR(s.czysta_data, 'D') IN ('6', '7') THEN 'TAK' ELSE 'NIE' END,
         TO_CHAR(s.czysta_data, 'Day'),
         TO_CHAR(s.czysta_data, 'Month'),
         TO_NUMBER(TO_CHAR(s.czysta_data, 'MM')),
@@ -155,7 +155,10 @@ WHEN NOT MATCHED THEN
         TO_NUMBER(TO_CHAR(s.czysta_data, 'YYYY'))
     );
 
+
+
 COMMIT;
+
 
 
 --- poprawnosc
@@ -265,7 +268,10 @@ DESC produkty;
 DESC czas;
 DESC klient;
 DESC sprzedaz;
-
+-- SELECT * from sprzedaz order by id_sprzedazy;
+-- select * from czas;
+-- select * from klient;
+-- select * from produkty;
 SELECT 'produkty' AS tabela, COUNT(*) FROM produkty
 UNION ALL
 SELECT 'czas', COUNT(*) FROM czas
@@ -278,7 +284,6 @@ SELECT * FROM produkty FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM czas ORDER BY id_czasu FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM klient FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM sprzedaz FETCH FIRST 10 ROWS ONLY;
-
 
 SELECT 
     s.order_number, 
