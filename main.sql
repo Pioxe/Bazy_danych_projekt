@@ -179,7 +179,8 @@ NOCYCLE;
 MERGE INTO klient k
 USING (
     SELECT DISTINCT
-        customername, contactfirstname, contactlastname, phone, addressline1, addressline2, city, state, postalcode, country, territory
+        customername, contactfirstname, contactlastname, phone, addressline1, addressline2, city, state, 
+        postalcode, country, territory
     FROM temp
     WHERE customername IS NOT NULL
 ) s
@@ -187,9 +188,11 @@ ON (k.customer_name = s.customername)
 -- czy klient już istnieje
 WHEN NOT MATCHED THEN
     INSERT (
-        id_klienta, customer_name, contact_first_name, contact_last_name, phone, address_line_1, address_line_2, city, state, postal_code, country, territory
+        id_klienta, customer_name, contact_first_name, contact_last_name, phone, address_line_1, address_line_2, city, state, 
+        postal_code, country, territory
     )
-    VALUES (seq_klient.NEXTVAL, s.customername, s.contactfirstname, s.contactlastname, s.phone, s.addressline1, s.addressline2, s.city, s.state, s.postalcode, s.country, s.territory);
+    VALUES (seq_klient.NEXTVAL, s.customername, s.contactfirstname, s.contactlastname, s.phone, s.addressline1, s.addressline2, 
+    s.city, s.state, s.postalcode, s.country, s.territory);
 
 
 ---spr
@@ -209,7 +212,8 @@ INCREMENT BY 1;
 MERGE INTO sprzedaz s
 USING (
         SELECT
-        p.id_produktu, c.id_czasu, k.id_klienta, t.ordernumber, t.orderlinenumber, t.status, t.dealsize, t.quantityordered, t.priceeach, t.sales
+        p.id_produktu, c.id_czasu, k.id_klienta, t.ordernumber, t.orderlinenumber, t.status, t.dealsize, t.quantityordered, 
+        t.priceeach, t.sales
     FROM temp t
     JOIN produkty p
         ON p.kod_produktu = t.productcode
@@ -226,17 +230,18 @@ WHEN NOT MATCHED THEN
     INSERT (
         id_sprzedazy, id_produktu, id_czasu, id_klienta, order_number, order_line_number, status, deal_size, quantity_ordered, price_each, sales)
     VALUES (
-        seq_sprzedaz.NEXTVAL, src.id_produktu, src.id_czasu, src.id_klienta, src.ordernumber, src.orderlinenumber, src.status, src.dealsize, src.quantityordered, src.priceeach, src.sales );
+        seq_sprzedaz.NEXTVAL, src.id_produktu, src.id_czasu, src.id_klienta, src.ordernumber, src.orderlinenumber, src.status, src.dealsize,
+        src.quantityordered, src.priceeach, src.sales );
 
 
 
+commit;
 --spr
 -- SELECT COUNT(*)
 -- FROM sprzedaz;
 
 --2823
 
-commit;
 --spr wszystkiego
 -- SELECT COUNT(*) FROM temp;
 -- SELECT COUNT(*) FROM sprzedaz;
@@ -263,6 +268,7 @@ DESC produkty;
 DESC czas;
 DESC klient;
 DESC sprzedaz;
+
 -- SELECT * from sprzedaz order by id_sprzedazy;
 -- select * from czas;
 -- select * from klient;
@@ -274,9 +280,10 @@ UNION ALL
 SELECT 'klient', COUNT(*) FROM klient
 UNION ALL
 SELECT 'sprzedaz', COUNT(*) FROM sprzedaz;
+SELECT 'temp', COUNT(*) FROM sprzedaz;
 
 SELECT * FROM produkty FETCH FIRST 10 ROWS ONLY;
-SELECT * FROM czas ORDER BY id_czasu FETCH FIRST 10 ROWS ONLY;
+SELECT * FROM czas FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM klient FETCH FIRST 10 ROWS ONLY;
 SELECT * FROM sprzedaz FETCH FIRST 10 ROWS ONLY;
 
