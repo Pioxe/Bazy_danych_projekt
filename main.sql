@@ -67,13 +67,11 @@ commit;
 
 
 --- MERGE DLA PRODUKTOW
---generator
 CREATE SEQUENCE seq_produkty
     START WITH 1
     INCREMENT BY 1
     NOCACHE;
 
--- MERGE (z DISTINCT)
 MERGE INTO produkty t
 USING (
     SELECT DISTINCT productcode, productline, msrp 
@@ -178,8 +176,6 @@ INCREMENT BY 1
 NOCACHE
 NOCYCLE;
 
-
-
 MERGE INTO klient k
 USING (
     SELECT DISTINCT
@@ -204,12 +200,11 @@ WHEN NOT MATCHED THEN
 
 --92
 COMMIT;
+
 -- sprzedarz merge
 CREATE SEQUENCE seq_sprzedaz
 START WITH 1
 INCREMENT BY 1;
-
-
 
 MERGE INTO sprzedaz s
 USING (
@@ -306,3 +301,6 @@ SELECT
 FROM temp
 ORDER BY ordernumber, orderlinenumber
 FETCH FIRST 10 ROWS ONLY;
+
+-- select * from temp FETCH FIRST 10 ROWS ONLY;
+-- desc temp ; 
